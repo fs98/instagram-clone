@@ -8,12 +8,10 @@ import {
   RefreshIcon,
   HeartIcon,
   GlobeAltIcon,
-  GlobeIcon,
   PlusIcon,
   ChatIcon,
   HomeIcon,
 } from "@heroicons/react/outline";
-import { ChevronDownIcon } from "@heroicons/react/outline";
 
 function classNames(...classes) {
   return classes.filter(Boolean).join(" ");
@@ -48,7 +46,7 @@ const Header = () => {
       <div className="container mx-auto flex justify-evenly py-4 items-center">
         <div>Instagram</div>
         <div>
-          <label class="relative block">
+          <label className="relative block">
             <span className="sr-only">Search</span>
             <span className="absolute inset-y-0 left-0 flex items-center pl-2">
               <SearchIcon
@@ -75,7 +73,7 @@ const Header = () => {
             <PlusIcon className="h-6 w-6 stroke-gray-700" aria-hidden="false" />
           </a>
           <a href="#">
-            <GlobeIcon className="h-6 w-6 stroke-gray-700" aria-hidden="false" />
+            <GlobeAltIcon className="h-6 w-6 stroke-gray-700" aria-hidden="false" />
           </a>
           <a href="#">
             <HeartIcon className="h-6 w-6 stroke-gray-700" aria-hidden="false" />
