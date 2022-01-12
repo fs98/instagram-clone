@@ -45,7 +45,7 @@ const dropdownActions = [
 const Header = () => {
   return (
     <header className="border-b">
-      <div className="container mx-auto flex justify-evenly py-4">
+      <div className="container mx-auto flex justify-evenly py-4 items-center">
         <div>Instagram</div>
         <div>
           <label class="relative block">
