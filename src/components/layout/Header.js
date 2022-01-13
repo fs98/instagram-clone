@@ -14,10 +14,6 @@ import {
   HomeIcon,
 } from "@heroicons/react/outline";
 
-// function classNames(...classes) {
-//   return classes.filter(Boolean).join(" ");
-// }
-
 const dropdownActions = [
   {
     name: "Profile",
