@@ -1,5 +1,6 @@
 import { Fragment } from "react";
 import { Popover, Transition } from "@headlessui/react";
+import WebFont from "webfontloader";
 import classNames from "classnames";
 import {
   SearchIcon,
@@ -37,10 +38,17 @@ const dropdownActions = [
   },
 ];
 
+// Load a Custom Font for Logo
+WebFont.load({
+  google: {
+    families: ["Norican:400"],
+  },
+});
+
 const Header = () => (
   <header className="border-b">
     <div className="container mx-auto flex justify-evenly py-4 items-center">
-      <div>Instagram</div>
+      <div style={{ fontFamily: "Norican" }} className="text-2xl">Instagram</div>
       <div>
         <label className="relative block">
           <span className="sr-only">Search</span>
